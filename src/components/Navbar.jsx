@@ -10,9 +10,9 @@ const Navbar = () => {
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       
       <img src={logo3} alt='monobank' className='w-[224px] h-[224px]'/>
-
-      <img src={phone} alt='monobank' className='w-[30px] h-[30px] mr-2'/>
-      <p className="text-gradient">+380 97 171 69 68</p>
+        <img src={phone} alt='monobank' className='w-[30px] h-[30px] mr-2'/>
+        <p className="text-gradient" style={{ whiteSpace: 'nowrap' }}>+380 97 171 69 68</p>
+      
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index)=>(
