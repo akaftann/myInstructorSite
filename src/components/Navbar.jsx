@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import {close, phone, menu, logo3} from '../assets'
-import {navLinks} from '../constants'
+import {navLinks, socialMedia} from '../constants'
 
 
 
@@ -14,7 +14,7 @@ const Navbar = () => {
         <p className="text-gradient" style={{ whiteSpace: 'nowrap' }}>+380 97 171 69 68</p>
       
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      {/* <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index)=>(
           <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-white
           ${index===navLinks.length - 1? 'mr-0' : 'mr-10'}`}>
@@ -23,7 +23,26 @@ const Navbar = () => {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
+      <div className='list-none sm:flex hidden justify-end items-center flex-1'>
+        
+      {socialMedia.map((social, index) => (
+          <div key={social.id} className="flex items-center">
+          <img
+            src={social.icon}
+            alt={social.id}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+            }`}
+            onClick={() => window.open(social.link)}
+          />
+          {/* Текстовий лінк після картинки та лінку */}
+          <span className="cursor-pointer text-gradient" onClick={() => window.open(social.link)}>
+            {social.id === 'instagram' ? 'Instagram' : social.id}
+          </span>
+        </div>
+        ))}
+      </div>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img src={toggle ? close : menu} alt='menu' className='w-[24px] h-[24px] object-contain'

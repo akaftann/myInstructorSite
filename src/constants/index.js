@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { fiat, metro, wv, skoda, kia, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -70,6 +70,62 @@ export const feedback = [
   },
 ];
 
+
+export const cars = [
+  {
+    id: "car-2",
+    formattedContent: [
+      "Skoda Fabia 2016 МКПП",
+      "metro ВДНГ",
+      "metro Іподром",
+      "metro Теремки",
+      "metro Академмістечко + місто Вишневе",
+      "Досвід роботи: 5 років",
+    ],
+    img: skoda,
+  },
+  {
+    id: "car-1",
+    formattedContent: [
+      "Kia Rio 2013 АКПП",
+      "metro Звіринецька",
+      "metro Печерська",
+      "metro Деміївська",
+      "Досвід роботи: 12 років",
+    ],
+    img: kia,
+  },
+];
+
+export const cars2 = [
+{
+  id: "car-3",
+  formattedContent: [
+    "Volkswagen Passat 2013 АКПП",
+    "metro Почайна",
+    "metro Оболонь + район Троещина",
+    "Досвід роботи: 17 років",
+  ],
+  img: wv,
+},
+{
+  id: "car-4",
+  formattedContent: [
+    "Fiat Grande Punto 2011 МКПП",
+    "metro Харківська",
+    "metro Познаяки",
+    "metro Осокорки",
+    "metro Звіринецька",
+    "Досвід роботи: 5 років",
+  ],
+  img: fiat,
+},
+]
+
+
+export const metroIcon = {
+  metro: metro
+}
 export const stats = [
   {
     id: "stats-1",
@@ -156,25 +212,11 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
+    id: "instagram",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/vash.instructor/",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
+ 
 ];
 
 export const clients = [

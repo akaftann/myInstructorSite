@@ -27,6 +27,11 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import phone from "./phone.png";
+import kia from "./kia.png";
+import skoda from "./skoda.png";
+import wv from "./wv.png";
+import metro from "./metro.png";
+import fiat from "./fiat.png";
 
 export {
   airbnb,
@@ -58,4 +63,9 @@ export {
   logo3,
   car,
   phone,
+  kia,
+  skoda,
+  wv,
+  metro,
+  fiat,
 };
