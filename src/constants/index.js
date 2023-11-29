@@ -1,4 +1,4 @@
-import { fiat, metro, wv, skoda, kia, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { person1, person3, fiat, metro, wv, skoda, kia,  people02, people03, instagram, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,12 +50,12 @@ export const feedback = [
       "Найкращі інструктори! Пояснюють все доступно і зрозуміло.Навчання проходить легко - і всі навички відточуються на практиці! Рекомендую!",
     name: "Ірина",
     title: "",
-    img: people01,
+    img: person1,
   },
   {
     id: "feedback-2",
     content:
-      "Пройшоа курс з інструктором Олексієм, і це було неймовірно круто! Завжди позитивна і легка атмосфера. Навчили не тільки водінню а й отримувати кайф від їзди. ДЯКУЮ!",
+      "Пройшов курс з інструктором Олексієм, і це було неймовірно круто! Завжди позитивна і легка атмосфера. Навчили не тільки водінню а й отримувати кайф від їзди. ДЯКУЮ!",
     name: "Nazar",
     title: "",
     img: people02,
@@ -64,9 +64,9 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Дякую Вам за отримання практичного досвіду, якого мені не вистачало. Не думав, що так швидку зможу відкинути свої страхи. Ви супер!",
-    name: "Andrew",
+    name: "Anton",
     title: "",
-    img: people03,
+    img: person3,
   },
 ];
 

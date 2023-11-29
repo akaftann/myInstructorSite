@@ -32,6 +32,8 @@ import skoda from "./skoda.png";
 import wv from "./wv.png";
 import metro from "./metro.png";
 import fiat from "./fiat.png";
+import person1 from "./person1.png";
+import person3 from "./person3.png";
 
 export {
   airbnb,
@@ -68,4 +70,6 @@ export {
   wv,
   metro,
   fiat,
+  person1,
+  person3,
 };
